@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div id="main">
+    <audio loop autoplay>
+        <source src="https://archive.org/download/chickenwalkassets/pokemonbattle.mp3" type="audio/mp3">
+    </audio>
+    <div id="play-area">
+        <div id="enemy-info" class="character">
+            <img id="bigdogimg" src="">
+            <p id="enemy-name">BIG DOG</p>
+            <div id="enemy-hp-bar"></div>
+        </div>
+        <div id="player-info" class="character">
+            <img id="chickenimg" src="">
+            <p id="player-name">CHICKEN</p>
+            <div id="player-hp-bar"></div>
+        </div>
+    </div>
+    <div id="info-bar">
+        <div id="console" class="float-child">
+            <p id="text-log" class="typewriter">There's a big dog also on a walk!</p>
+        </div>
+        <div id="actions" class="float-child">
+            <button id="growl" class="action-btn">Growl</button>
+            <button id="bark" class="action-btn">Bark</button>
+            <button id="sniff" class="action-btn">Sniff</button>
+            <button id="playCool" class="action-btn">Play it Cool</button>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="./characters.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+</html>
